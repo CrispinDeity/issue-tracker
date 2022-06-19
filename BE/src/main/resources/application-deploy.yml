@@ -1,0 +1,11 @@
+# 배포용 yml 파일
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: datasource_url
+    username: datasource_username
+    password: datasource_password
+
+  jpa:
+    hibernate:
+      ddl-auto: none

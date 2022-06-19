@@ -1,0 +1,6 @@
+# dev, deploy ?? ?? yml ??
+spring:
+  config:
+    activate:
+      on-profile:
+        - ${profiles}
